@@ -7,4 +7,4 @@ RunProgram="\"C:\\Elevation\" Register.bat"
 ;!@InstallEnd@!
 7zSFXBuilder_7zArchive=D:\OneDrive\Документы\GitHub\Elevation\Source\Elevation.7z
 7zSFXBuilder_SFXModule=D:\OneDrive\Документы\GitHub\Elevation\Source\7zsd_LZMA.sfx
-7zSFXBuilder_SFXName=D:\OneDrive\Документы\GitHub\Elevation\Source\Elevation.SFX.exe
+7zSFXBuilder_SFXName=D:\OneDrive\Документы\GitHub\Elevation\Exponenta-Plugin\Elevation.SFX.exe
