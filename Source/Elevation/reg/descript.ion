@@ -1,3 +1,0 @@
-reg_add_envvar.bat -- командный файл добавления системной переменной окружения вместе со значением\nВ
-reg_addtopath.bat -- командный файл для добавления пути к системной переменной Path\nВ
-reg_del_envvar.bat -- reg_del_envvar.bat is a script which delete the environment variable from the shell\nUsage > reg_del_envvar.bat <variable name>\nСкрипт, удаляющий переменную окружения из оболочки\nВ

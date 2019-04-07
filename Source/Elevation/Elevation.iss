@@ -5,7 +5,7 @@
 
 [Setup]
 AppName=Elevation Exponenta Plugin
-AppVersion=2.0.3
+AppVersion=2.0.4
 AllowRootDirectory=yes
 AllowCancelDuringInstall=yes
 ArchitecturesAllowed=x86 x64
@@ -15,9 +15,9 @@ MinVersion=6.0.6001
 SetupLogging=no
 UsePreviousAppDir=yes
 DisableStartupPrompt=yes
-Output=no
+Output=yes
 OutputDir=d:\Download
-OutputBaseFilename=Elevation203SetupRepack
+OutputBaseFilename=ElevationSetupRepack
 
 [Files]
 Source: "*.bat"; DestDir: "{app}"; Flags: recursesubdirs uninsremovereadonly uninsrestartdelete restartreplace
