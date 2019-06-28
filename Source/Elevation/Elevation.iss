@@ -5,19 +5,30 @@
 
 [Setup]
 AppName=Elevation Exponenta Plugin
-AppVersion=2.0.4
+AppVersion=2.0.5
 AllowRootDirectory=yes
 AllowCancelDuringInstall=yes
 ArchitecturesAllowed=x86 x64
 Compression=lzma2/max
 DefaultDirName={%Elevation|c:\Elevation}
-MinVersion=6.0.6001
-SetupLogging=no
+MinVersion=0,6.0.6001sp1
+SetupLogging=True
 UsePreviousAppDir=yes
 DisableStartupPrompt=yes
 Output=yes
 OutputDir=d:\Download
-OutputBaseFilename=ElevationSetupRepack
+;OutputBaseFilename=ElevationSetupRepack
+OutputBaseFilename=ElevationSetup-2.0.5
+AppId={{9A2EE15F-C77A-4C6D-A2E1-3A2CB745D915}
+RestartIfNeededByRun=False
+AppPublisher=New Internet Technologies Inc.
+AppUpdatesURL=http://anticriminalonline.ru/Exponenta/ElevationSetupRepack.exe
+AppContact=yudenisov@mail.ru
+AppSupportPhone=+79047071125
+VersionInfoVersion=2.0.5
+VersionInfoProductName=Elevation PowerToys
+VersionInfoProductVersion=2.0
+ArchitecturesInstallIn64BitMode=x64
 
 [Files]
 Source: "*.bat"; DestDir: "{app}"; Flags: recursesubdirs uninsremovereadonly uninsrestartdelete restartreplace
@@ -46,5 +57,5 @@ Source: descript.ion; DestDir: "{app}"; Attribs: hidden; Flags: recursesubdirs u
 [Registry]
 
 Root: HKLM; Subkey: "SYSTEM\CurrentControlSet\Control\Session Manager\Environment"; Flags: deletevalue noerror uninsdeletevalue; ValueType: string; ValueName: "ELEVATION"; ValueData: "{app}"
-Root: HKLM; Subkey: "SYSTEM\CurrentControlSet\Control\Session Manager\Environment"; Flags: noerror; ValueType: string; ValueName: "PATH"; ValueData: "{olddata};{app}"
+;Root: HKLM; Subkey: "SYSTEM\CurrentControlSet\Control\Session Manager\Environment"; Flags: noerror; ValueType: string; ValueName: "PATH"; ValueData: "{olddata};{app}"
 
